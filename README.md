@@ -74,10 +74,10 @@ $ kubectl describe service perldockerweb-service
 $ bx cs workers CLUSTERNAME
 ```
 
-http://<IP_address>:<NodePort>
+Get IP address and NodePort from previous commands to see the app at http://IPADDRESS:NODEPORT
 
 ```bash
 $ kubectl proxy
 ```
 
-http://localhost:8001/ui
+View Kubernetes status at http://localhost:8001/ui
