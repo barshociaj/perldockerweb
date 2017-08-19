@@ -31,9 +31,9 @@ $ carton install --deployment
 $ carton exec plackup bin/app.pl
 ```
 
-##deployment
+## deployment
 
-###IBM Bluemix
+### IBM Bluemix
 
 The following is a short version of the tutorial at: https://console.bluemix.net/docs/containers/cs_tutorials.html#cs_tutorials
 
