@@ -5,6 +5,7 @@ Perl Web application template for dockerising
 ### docker
 
 ```bash
+$ docker build -t barshociaj/perldockerweb .
 $ docker run --name=perldockerweb -d -p 8080:8080 barshociaj/perldockerweb
 ```
 
